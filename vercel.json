@@ -1,9 +1,8 @@
 {
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index_ru.html"
-    }
+    { "source": "/", "destination": "/index_ru.html" },
+    { "source": "/en", "destination": "/index_en.html" },
+    { "source": "/en/(.*)", "destination": "/$1_en.html" }
   ],
   "headers": [
     {
@@ -14,7 +13,7 @@
           "value": "nosniff"
         },
         {
-          "key": "X-Frame-Options",
+          "key": "X-Frame-Options", 
           "value": "DENY"
         },
         {
@@ -24,16 +23,7 @@
       ]
     },
     {
-      "source": "/(.*).html",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)\\.webp",
+      "source": "/(.*\\.(webp|css|js))",
       "headers": [
         {
           "key": "Cache-Control",
