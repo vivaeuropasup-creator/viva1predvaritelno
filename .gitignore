@@ -26,3 +26,4 @@ _cursor_task_log.txt
 # Backup files
 *.bak
 *~
+.vercel
