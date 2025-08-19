@@ -1345,20 +1345,23 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 /* ===== BRAND HERO STYLES ===== */
 /* Контейнер бренда */
 .brand-hero{
-  display:grid; gap:6px; justify-items:center;
+  display:grid; gap:8px; justify-items:center;
   padding-inline:16px; margin-bottom:14px;
   animation: brand-enter .9s ease-out both;
   text-wrap: balance;
+  align-items: center;
 }
 
 /* Логотип-бренд */
 .brand-logo {
-  max-width: 600px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   filter: drop-shadow(0 6px 18px rgba(0,0,0,.35));
   position: relative;
   margin: 0;
+  padding: 0;
+  display: block;
 }
 
 /* Заголовок-бренд (для страниц без логотипа) */
@@ -1427,8 +1430,8 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 
 /* Мобилка: чуть больше воздуха и центрирование */
 @media (max-width:768px){
-  .brand-hero{ gap: 4px }
-  .brand-logo{ max-width: 500px; }
+  .brand-hero{ gap: 6px }
+  .brand-logo{ max-width: 150px; }
   .brand-title{ font-size: clamp(34px, 9vw, 46px); }
   .brand-tagline{ font-size: clamp(15px, 4.2vw, 18px); max-width: 96vw; }
   .brand-lead{ font-size: clamp(14px, 4vw, 16px); padding-inline: 6px }
