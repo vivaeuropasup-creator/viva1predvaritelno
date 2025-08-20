@@ -1535,7 +1535,7 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 140px;
+  min-height: 160px;
 }
 
 /* Mobile adaptation for hero and service cards */
