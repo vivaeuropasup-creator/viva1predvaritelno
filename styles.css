@@ -1497,6 +1497,9 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
   overflow: hidden;
   box-shadow: var(--shadow-gold) 0 4px 20px;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -1515,6 +1518,20 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 
 .service-card__body { 
   padding: 18px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Контент карточки (все кроме цены и кнопки) */
+.service-card__content {
+  flex: 1;
+}
+
+/* Нижняя часть карточки (цена + кнопка) */
+.service-card__footer {
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 /* Mobile adaptation for hero and service cards */
