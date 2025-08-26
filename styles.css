@@ -134,6 +134,10 @@ a:focus {
   padding: 0 2rem;
 }
 
+main {
+  padding-top: 80px; /* Отступ для фиксированного хедера */
+}
+
 .section {
   padding: 4rem 0;
 }
