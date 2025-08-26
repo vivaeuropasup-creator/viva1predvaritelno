@@ -1,7 +1,7 @@
 // VivaEuropa - CTA & Lead Management
 // Конфигурация с актуальными данными
 const WA_URL = "https://wa.me/79291735720?text=Здравствуйте,%20хочу%20получить%20ВНЖ%20в%20Испании";
-const TG_URL = "https://t.me/vivaeurop";
+const TG_URL = "https://t.me/vivaeu";
 const MAILTO_URL = "mailto:vivaeuropa.sup@gmail.com?subject=Запрос%20по%20ВНЖ%20Испании&body=Имя:%0AСпособ%20связи:%0AГород/страна:%0AКратко%20суть:%0A";
 const GOOGLE_SHEETS_WEBHOOK_URL = 'https://script.google.com/macros/s/.../exec?key=SECRET';
 const LEGAL_NOTE_RU = 'Статистика основана на реальных обращениях 2024–2025. Решение принимает орган по делам иностранцев Испании.';
