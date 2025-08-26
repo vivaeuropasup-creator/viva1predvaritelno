@@ -600,14 +600,22 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 
 /* Задержки для последовательного появления кнопок */
 .cta-btn.whatsapp {
+  animation: cta-appear 0.6s ease-out both;
   animation-delay: 0.1s;
 }
 .cta-btn.telegram {
+  animation: cta-appear 0.6s ease-out both;
   animation-delay: 0.2s;
 }
-.cta-btn.email {
+.cta-btn.instagram {
+  animation: cta-appear 0.6s ease-out both;
   animation-delay: 0.3s;
 }
+.cta-btn.email {
+  animation: cta-appear 0.6s ease-out both;
+  animation-delay: 0.4s;
+}
+
 
 /* Убедимся что текст поверх блеска */
 .cta-btn > span {
@@ -672,10 +680,10 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 
 /* Email Button - Neutral with border */
 .cta-btn.email {
-  background: var(--bg-secondary);
-  color: var(--text-primary);
-  border: 1px solid var(--border-color);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
 }
 
 .cta-btn.email:hover {
@@ -1243,10 +1251,7 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
   animation: cta-entrance 0.6s ease-out both;
 }
 
-.cta-btn.whatsapp { animation-delay: 0.1s; }
-.cta-btn.telegram { animation-delay: 0.2s; }
-.cta-btn.instagram { animation-delay: 0.3s; }
-.cta-btn.email { animation-delay: 0.4s; }
+
 
 /* Удаляем дублирующееся определение */
 
