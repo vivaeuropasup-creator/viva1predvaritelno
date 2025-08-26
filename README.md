@@ -45,7 +45,7 @@ A professional website for residence permit assistance services in Spain.
 
 ## 📞 Contact Information
 
-- **Telegram**: [@vivaeurop](https://t.me/vivaeurop)
+- **Telegram**: [@vivaeu](https://t.me/vivaeu)
 - **WhatsApp**: [+79291735720](https://wa.me/79291735720)
 - **Email**: [vivaeuropa.sup@gmail.com](mailto:vivaeuropa.sup@gmail.com)
 
