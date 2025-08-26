@@ -461,7 +461,6 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
 }
 
 .card:hover {
-  transform: translateY(-8px) scale(1.02);
   box-shadow: 
     0 24px 64px rgba(0, 0, 0, 0.4),
     0 0 0 1px var(--accent-gold-glow),
@@ -1467,17 +1466,7 @@ body[data-page="contact"]  .hero::before { background-image: url("bg_contact.web
   --shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 
-/* Reveal animations */
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 600ms ease, transform 600ms ease;
-}
 
-.reveal-visible {
-  opacity: 1;
-  transform: none;
-}
 
 /* Focus styles for keyboard navigation */
 .nav-link:focus,

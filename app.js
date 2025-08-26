@@ -201,22 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Опционально включаем отслеживание скролла
     // trackScrollDepth();
 
-    // Reveal on scroll animations
-    try {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('reveal-visible');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 });
 
-        document.querySelectorAll('.section, .card, .pricing-card').forEach((el) => {
-            el.classList.add('reveal');
-            observer.observe(el);
-        });
-    } catch (_) {}
     
     // Отправляем событие просмотра страницы
     setTimeout(() => {
